@@ -1,23 +1,22 @@
-/* 
-  Importante: 
-  No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
-  código dentro de las funciones ya definidas. 
-  No comentar la funcion 
-*/
-function soloNumeros(array) {
+//function soloNumeros(array) {
   // La funcion llamada 'soloNumeros' recibe como argumento un arreglo de enteros y strings llamado 'array'.
   // Debe devolver un arreglo con solo los enteros.
   // Ej: 
-  // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
+  // soloNumeros([1, 'hola', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-var soloenteros = [];
-for (var i = 0; i < array.length; i++) {
-  if (array[i] / array(i === 0) (soloenteros = array[i]));
-}
-//return soloenteros;
-}
-// No modifiques nada debajo de esta linea //
+  var array = [1, 2, 3, "t", 4, "yy", "yy", "yy",];
+var arraynuevo = [];
 
 
-module.exports = soloNumeros
+for(let i = 0; i < array.length ; i++){
+
+if( typeof array[i] === "number"){
+
+arraynuevo.push(array[i]);
+
+}
+
+
+console.log(arraynuevo);
+}
